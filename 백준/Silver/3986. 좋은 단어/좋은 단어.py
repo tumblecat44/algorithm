@@ -1,16 +1,3 @@
-n = int(input())
-res = 0
-for i in range(n):
-    a = list(input())
-    stack = []
-    qe = True
-    for j in a:
-        stack.append(j)
-        if len(stack) >= 2:
-            if stack[-1] == stack[-2]:
-                stack.pop()
-                stack.pop()
-
-    if len(stack) == 0:
-        res += 1
-print(res)
+r=0;n=int(input())
+for _ in' '*n:s=[];[s.pop()if s and s[-1]==c else s.append(c)for c in input()];r+=not s
+print(r)
