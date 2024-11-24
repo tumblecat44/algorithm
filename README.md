@@ -1,1 +1,1 @@
-# algorithm
+SQL 마스터와 파이썬 왕의 꿈
